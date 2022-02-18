@@ -1,0 +1,46 @@
+.hero-btn:hover {
+  color: gold;
+  box-shadow: gold 0px 0px 0px 4px inset;
+  border: 4px solid gold;
+}
+
+.collection {
+  width: 100%;
+  max-width: 1500px;
+  display: flex;
+  height: 595px;
+  background-image: url(/assets/classic.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right -100px bottom 0px;
+}
+
+.collection {
+  background-size: 35%;
+  background-position: right bottom;
+}
+
+@media (max-width: 768px) {
+  .collection {
+    background-image: url("");
+  }
+}
+
+.menu-icon {
+  display: none;
+}
+.nav-menu-mob {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .nav-menu {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .nav-menu-mob {
+    display: none;
+  }
+}
